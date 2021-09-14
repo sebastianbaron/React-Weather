@@ -1,0 +1,14 @@
+html{
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../assets/SplashScreen.svg);
+  background-size: cover;
+  color: #e8e8e8;
+  font-family: roboto, tahoma;
+}
+
+#app, body, html{
+  height:100%;
+}
+

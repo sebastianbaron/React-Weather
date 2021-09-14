@@ -1,0 +1,13 @@
+{
+  "short_name": "Weathery",
+  "name": "Weathery App",
+  "icons": [
+    
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+
+}

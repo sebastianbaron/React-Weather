@@ -1,0 +1,154 @@
+.top-bar{
+  margin-top: 1vh;
+  height:15vh;
+}
+
+.top-date-location {
+  font-size: 1.4rem;
+  font-weight: 100;
+  display:flex;
+  grid-template-columns: repeat(auto-fit, minmax(0.5rem, 100rem));
+  height: 36px;
+  
+}
+
+#title-1 {
+  width: 35%;
+}
+#title-2{
+  flex: 0 0 50%;
+}
+#title-3 {
+  flex: 0 0 36px;
+}
+
+#searchBox{
+  font-size: 1rem;
+  height:36px;
+  width:95%;
+  border:  2px;
+  background: linear-gradient(
+    244.25deg,
+    rgba(255, 255, 255, 0.32) 8.96%,
+    rgba(255, 255, 255, 0.2) 56.37%
+  );
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 4px;
+}
+
+.img-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.main-temp {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.main-temp > h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  margin: auto auto 0.2rem auto;
+  text-align: center;
+}
+.main-temp > p{
+  text-transform: capitalize;
+}
+
+#misc-data-row{
+  margin-top: 3vh;
+}
+
+#misc-data-row > div {
+  font-weight: 100;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#misc-data-row > * > img {
+  height: 36px;
+  width: 36px; 
+  fill:ivory;
+  margin-bottom: 0.8rem;
+
+}
+#misc-data-row > p { 
+  height: 36px;
+  width: 36px; 
+
+}
+
+.main-forecast {
+  margin-top:7vh;
+  background: linear-gradient(
+    244.25deg,
+    rgba(255, 255, 255, 0.32) 8.96%,
+    rgba(255, 255, 255, 0.2) 56.37%
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 5px;
+}
+.container-main{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.sub-forecast {
+  font-size: 1.4rem;
+  display:inline-flex;
+  align-items: center;
+  font-weight: 100;
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+
+.sub-forecast > *:nth-child(1){
+  width: 50%;
+  height:36px;
+}
+.sub-forecast > *:nth-child(2){
+  flex: 0 0 36px;
+}
+.sub-forecast > *:nth-child(3){
+  width: 45%;
+  display:flex;
+  justify-content:flex-end;
+  height:36px;
+
+}
+
+.sub-forecast>img{
+  height:36px;
+  width: 36px;
+}
+
+.sub-forecast>*>span{
+  margin-left:30px;
+}
+
+
+.searchBox-transition-enter {
+  opacity: 0;
+ 
+}
+.searchBox-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+
+.searchBox-transition-exit {
+  opacity: 1;
+ 
+}
+.searchBox-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms
+}
+
+
